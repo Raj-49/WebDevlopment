@@ -1,0 +1,19 @@
+/* Shadow, orientation, transformation, gradient */
+.shadow-text {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.rotate-box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transform: rotate(45deg);
+    margin: 20px;
+}
+
+.gradient-box {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right, red, yellow);
+    margin: 20px;
+}

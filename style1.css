@@ -1,0 +1,18 @@
+/* Changing properties like color, size, background */
+#main-title {
+    color: blue;
+    font-size: 2em;
+    text-align: center;
+}
+
+.text {
+    color: green;
+    font-size: 1.2em;
+}
+
+.box {
+    background-color: lightgrey;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}

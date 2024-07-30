@@ -1,0 +1,33 @@
+/* Absolute and relative positioning, Z-index */
+.relative-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+}
+
+.z-index-box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+    top: 100px;
+    left: 50px;
+    z-index: 1;
+}
+
+.z-index-box.top {
+    top: 150px;
+    left: 100px;
+    z-index: 2;
+}
